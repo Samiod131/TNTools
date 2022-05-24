@@ -5,16 +5,10 @@
     |    |  \_|    |    |_____| |_____| |_____ ______|
 
 
-Collection of Tn functions useful for the simple_canonical form solver.
+Collection of TN functions for solvbing classical and quantum problems with tensor networks.
 
-The functions are made to input fantom legs. The format permits open boundary
-conditions to the mps.
-
-TODO:
-    - MPO-MPO contractor (?)
-    - general gate to MPO
-    - MPS-block gate contractor
-    - Function to cancel canonicalization in class and related modifications
+The functions are made to receive edge tensors with fantom legs. The format allows for open boundary
+conditions.
 
 '''
 
