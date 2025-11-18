@@ -1,22 +1,16 @@
-'''
-
- _______ __   _ _______  _____   _____         _______
-    |    | \  |    |    |     | |     | |      |______
-    |    |  \_|    |    |_____| |_____| |_____ ______|
-
-
-Collection of TN functions for solvbing classical and quantum problems with tensor networks.
-
-The functions are made to receive edge tensors with fantom legs. The format allows for open boundary
-conditions.
-
-'''
-
 import warnings
+
 import numpy as np
 import scipy.linalg
 from scipy.sparse.linalg import eigsh
 
+
+'''
+Collection of TN functions for solvbing classical and quantum problems with tensor networks.
+
+The functions are made to receive edge tensors with fantom legs. The format allows for open boundary
+conditions.
+'''
 
 '''
 ################################################################################
