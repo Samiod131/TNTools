@@ -146,7 +146,7 @@ def _to_norm_one_svd(_u, _s, _vh, final_len):
     for i in range(final_len):
         _u_norm = np.sum(_u[:, i])
         _vh_norm = np.sum(_vh[i, :])
-        new_u[:, i] = _u[:, i]/_u_normf
+        new_u[:, i] = _u[:, i]/_u_norm
         new_vh[i, :] = _vh[i, :]/_vh_norm
         new_s[i] = _s[i]*_u_norm*_vh_norm
 

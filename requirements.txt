@@ -1,0 +1,11 @@
+# TNTools - Tensor Network Tools Requirements
+# Collection of TN functions for solving classical and quantum problems
+# Python Version: >=3.8,<4.0
+
+# Core numerical computing
+numpy>=1.20.0,<2.0.0
+scipy>=1.7.0,<2.0.0
+
+# Optional: For improved performance (10-100x speedup on loops)
+# Recommended for large-scale tensor network computations
+# numba>=0.54.0  # Uncomment for JIT compilation of bottleneck functions
