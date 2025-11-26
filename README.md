@@ -1,6 +1,7 @@
 # TNTools
 An old collection of tools for solving classical and quantum problems with Tensor Networks, with a focus on combinatorial optimization. This lib was developped as I was doing my master thesis. 
 
+Explained in chapter 3 of my thesis:
 https://usherbrooke.scholaris.ca/bitstreams/d8f0bc84-b9b5-4f92-a9dd-bd35ecb11836/download
 
 This is beginning to date and shows how my code came to improve over the years.  
@@ -8,10 +9,11 @@ This is beginning to date and shows how my code came to improve over the years.
 
 ### Identified immediate needs for refactor
 
--Split in clean submodules
--Add proper docstring
--Implement JIT compilation
--Unit tests
+- Split in clean submodules
+- Add proper docstring
+- Implement JIT compilation
+- Unit tests
+- Clean Syntax and naming
 
 
 
