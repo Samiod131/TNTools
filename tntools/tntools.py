@@ -1623,12 +1623,11 @@ class MpsStateCanon:
         Finds if there are Nans of infs in the current MPS state and at which
         position there are.
         '''
-        check = False
         pos = []
         for i, tens in enumerate(self.mps):
             if np.sum(np.isnan(tens))+np.sum(np.isinf(tens)):
-                check = True
                 pos.append(i)
+        return pos
     
     def max_bond_dim(self):
         return max_bond_size(self.mps)
