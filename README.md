@@ -3,8 +3,7 @@ An old collection of tools for solving classical combinatorial optimization prob
 
 The idea is to approximate the function values of all assignation through a MPS (Matrix Product State). This is done mainly by applying operators for weigths and constraints. An adapted DMRG procedure can then be applied to find the coordinates of the largest component value of the MPS. These coordinates are directly equivalent to the equivalent combinatorial optimization problem's answer.
 
-Explained in chapter 3 of my thesis:
-https://usherbrooke.scholaris.ca/bitstreams/d8f0bc84-b9b5-4f92-a9dd-bd35ecb11836/download
+Explained in chapter 3 of my [thesis](https://usherbrooke.scholaris.ca/bitstreams/d8f0bc84-b9b5-4f92-a9dd-bd35ecb11836/download).
 
 
 **This lib is beginning to date and shows how my code came to improve over the years.**
@@ -26,8 +25,6 @@ Developping this library was also a great way to develop coding skills and be mu
 
 
 ### Example snippet
-
-This short example shows how this library can be used. 
 
 ```{python}
 import numpy as np
