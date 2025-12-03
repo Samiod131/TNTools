@@ -668,7 +668,7 @@ def ansatz_mps(mps_length, max_chi=20, phys_ind=2, complex=False, negative=False
         off_set = 0.5
     # first tensor
     if max_chi is False:
-        max_chi = np.Inf
+        max_chi = np.inf
 
     if complex:
         # Initiating complex array and summing
